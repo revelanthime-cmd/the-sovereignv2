@@ -1,0 +1,13 @@
+name: Sovereign
+version: '${version}'
+main: gg.sovereign.Sovereign
+api-version: '1.21'
+description: Realms, wars, economy and menus for vanilla clients.
+commands:
+  menu:
+    description: Open the Sovereign menu.
+    aliases: [sov, m]
+permissions:
+  sovereign.admin:
+    description: Sovereign admin menu.
+    default: op
