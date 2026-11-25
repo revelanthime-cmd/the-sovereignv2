@@ -15,8 +15,8 @@ jobs:
         with:
           gradle-version: '8.14'
       - name: Build the plugin
-        run: gradle build --no-daemon
+        run: gradle -p .github/workflows build --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: Sovereign-plugin
-          path: build/libs/*.jar
+          path: .github/workflows/build/libs/*.jar
