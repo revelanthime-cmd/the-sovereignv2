@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "gg.sovereign"
-version = "2.0.0"
+version = "2.1.0"
 
 repositories {
     mavenCentral()
@@ -22,11 +22,11 @@ java {
 sourceSets {
     main {
         java {
-            setSrcDirs(listOf("plugin"))
+            setSrcDirs(listOf("plugin/plugin-v2.1"))
             include("*.java")
         }
         resources {
-            setSrcDirs(listOf("plugin"))
+            setSrcDirs(listOf("plugin/plugin-v2.1"))
             include("plugin.yml")
         }
     }
